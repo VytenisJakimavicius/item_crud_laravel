@@ -1,4 +1,4 @@
 
-uploade pictures with ajax
+simple Laravel project.
 
 
