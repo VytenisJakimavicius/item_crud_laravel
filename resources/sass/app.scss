@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body, .modal-body {
+background-color: antiquewhite;
+}
+.tableinfo{
+    width: 33.3%;
+    float: left;
+    padding: 0.5%;
+}
+.infobox{
+    height: 30vh;
+}
+.ViewImage_url, .infobox{
+    background-size: 100% 100%;
+    background: center/cover no-repeat;
+    box-sizing: border-box;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+.title, .price{
+    color: Black;
+    text-align: center;
+}
+.topmenu{
+    text-align: center;
+    background-color: rgb(241, 214, 178);
+    border: none;
+}
+.modal-header, .modal-footer{
+    background-color: rgb(241, 214, 178);
+}
+
+.ViewImage_url{
+    float: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30vh;
+}
+
+.ViewPrice{
+    border-radius: 50%;
+    font-size: large;
+    text-align: center;
+    color: rgb(223, 154, 64);
+    font-weight: bold;
+    background-color: rgb(77, 46, 7);
+    padding: 1vh;
+}
+.modalsubheader{
+    font-weight: bold;
+}
